@@ -33,8 +33,8 @@ void zadanie6(void) {
 		//cout << "wartosc k= " << pWiz[i]->k << endl;
 		cout << "wartosc k= " << (*(*(pWiz+i))).k << endl;
 		//delete pWiz[i];
-		delete *(pWiz+i);
+		delete [] *(pWiz+i);
 	}
-	delete pWiz;
+	delete [] pWiz;
 
 }

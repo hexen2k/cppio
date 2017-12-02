@@ -22,9 +22,9 @@ void zadanie5(void) {
 	for (int i = 0; i <TAB_SIZE; i++) {
 		//cout << *pint[i] << endl;
 		cout << *(*(pint+i)) << endl;
-		delete pint[i];
+		delete [] pint[i];
 		pint[i] = NULL;
 	}
-	delete pint;
+	delete [] pint;
 	pint = NULL;
 }
