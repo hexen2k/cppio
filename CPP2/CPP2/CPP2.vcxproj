@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClCompile Include="CPP2.cpp" />
     <ClCompile Include="zadanie1.cpp" />
+    <ClCompile Include="zadanie10.cpp" />
     <ClCompile Include="zadanie2.cpp" />
     <ClCompile Include="zadanie3.cpp" />
     <ClCompile Include="zadanie4.cpp" />
@@ -152,9 +153,11 @@
     <ClCompile Include="zadanie6.cpp" />
     <ClCompile Include="zadanie7.cpp" />
     <ClCompile Include="zadanie8.cpp" />
+    <ClCompile Include="zadanie9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zadanie1.h" />
+    <ClInclude Include="zadanie10.h" />
     <ClInclude Include="zadanie2.h" />
     <ClInclude Include="zadanie3.h" />
     <ClInclude Include="zadanie4.h" />
@@ -162,6 +165,7 @@
     <ClInclude Include="zadanie6.h" />
     <ClInclude Include="zadanie7.h" />
     <ClInclude Include="zadanie8.h" />
+    <ClInclude Include="zadanie9.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
