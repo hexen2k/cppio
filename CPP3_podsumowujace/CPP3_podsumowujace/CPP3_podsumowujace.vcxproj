@@ -88,7 +88,9 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,14 +145,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DString.h" />
     <ClInclude Include="LiczbaZespolona.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="zadanie1.h" />
+    <ClInclude Include="zadanie2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPP3_podsumowujace.cpp" />
+    <ClCompile Include="DString.cpp" />
     <ClCompile Include="LiczbaZespolona.cpp" />
     <ClCompile Include="zadanie1.cpp" />
+    <ClCompile Include="zadanie2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
