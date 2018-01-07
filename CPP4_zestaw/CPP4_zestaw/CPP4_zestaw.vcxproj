@@ -75,6 +75,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -111,13 +112,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Okrag.h" />
+    <ClInclude Include="Osoba.h" />
     <ClInclude Include="Pracownik.h" />
     <ClInclude Include="zadanie1.h" />
+    <ClInclude Include="zadanie2.h" />
+    <ClInclude Include="zadanie3.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Okrag.cpp" />
+    <ClCompile Include="Osoba.cpp" />
     <ClCompile Include="Pracownik.cpp" />
     <ClCompile Include="zadanie1.cpp" />
+    <ClCompile Include="zadanie2.cpp" />
+    <ClCompile Include="zadanie3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

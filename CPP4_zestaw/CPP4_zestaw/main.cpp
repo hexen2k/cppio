@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Pracownik.h"
 #include "zadanie1.h"
+#include "zadanie2.h"
+#include "zadanie3.h"
 
 using std::cout;
 using std::cin;
@@ -17,8 +19,10 @@ int main(void)
 		zadanie1();
 		break;
 	case 2:
+		zadanie2();
 		break;
 	case 3:
+		zadanie3();
 		break;
 	default:
 		break;
